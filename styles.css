@@ -67,3 +67,25 @@ body {
     border: 3px solid #450053;
     background: url("imagenes/back.png.jpg") center / contain no-repeat;
  }
+
+ .popup {
+   display: none;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   background-color: purple;
+   padding: 20px;
+   border: 2px solid black;
+   z-index: 10;
+ }
+ 
+ .popup-content {
+   text-align: center;
+   background-color: violet;
+ }
+ 
+ #game {
+   z-index: 1;
+ }
+ 
